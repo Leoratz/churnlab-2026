@@ -1,0 +1,14 @@
+[project]
+name = "churnlab"
+version = "0.1.0"
+description = "First MLOps lab"
+requires-python = ">=3.11, <3.13"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+]
+
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
