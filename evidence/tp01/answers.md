@@ -23,3 +23,7 @@
 | Installed environment | Before/after environment records | This does not capture every OS or hardware detail |
 | Source data | Source URL and SHA-256 | This does not establish label quality or absence of leakage |
 | Trained model | Not produced in TP01 | Requires later training/configuration/artifact evidence |
+
+URL :
+- PR : https://github.com/Leoratz/churnlab-2026/pull/1
+- Merge commit : c94a3363aa2d731db06981ee6ce6567edebeb755
