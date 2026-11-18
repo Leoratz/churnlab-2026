@@ -57,3 +57,7 @@ outputs/
 # Temporary files
 *.tmp
 *.bak
+
+mlflow.db
+mlflow.db-*
+mlartifacts/
