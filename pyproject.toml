@@ -8,8 +8,14 @@ dependencies = [
     "numpy",
     "scikit-learn",
     "mlflow>=3,<4",
+    "matplotlib>=3.11.2",
 ]
 
 [build-system]
 requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
